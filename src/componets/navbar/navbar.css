@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 170px;
+    font-family: "Anonymous Pro", monospace!important;
+}
+
+.nav-links {
+    color:black;
+    font-weight: 200;
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
