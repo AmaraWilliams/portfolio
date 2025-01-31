@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Componets/Navbar/Navbar'
+import Navbar from './Componets/Navbar/Navbar.jsx'
 import React from 'react';
 import headshot from './assets/headshot.JPG'
 import Card from './Componets/Card/Card'
