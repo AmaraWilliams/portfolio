@@ -4,6 +4,9 @@
     justify-content: space-between;
     margin: 0px 170px;
     font-family: "Anonymous Pro", monospace!important;
+    position: sticky;
+    width: 90vw;
+    z-index: 1000;
 }
 
 .nav-links {
@@ -12,7 +15,32 @@
     display: flex;
     list-style: none;
     gap: 100px;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     
+}
+.navbar ul {
+    display: flex;
+    justify-content: center; /* Center-align the navbar items */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.navbar li {
+margin: 0 20px;
+}
+
+.navbar a {
+text-decoration: none;
+color: black;
+font-size: 18px;
+}
+
+.navbar a:hover {
+color: grey; /* Change color when hovered */
+}
+
+img {
+    box-shadow: none;
 }
