@@ -2,11 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 170px;
+    margin: 0px;
     font-family: "Anonymous Pro", monospace!important;
     position: sticky;
     width: 90vw;
-    z-index: 1000;
 }
 
 .nav-links {
@@ -37,7 +36,7 @@ color: black;
 font-size: 18px;
 }
 
-.navbar a:hover {
+.nav-links a:hover {
 color: grey; /* Change color when hovered */
 }
 
