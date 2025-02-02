@@ -5,11 +5,10 @@
   font-family: "Anonymous Pro", monospace
 }
 body {
-  margin: 0;
   overflow:scroll;
-  background-color: bisque;
+  background-color: #ffe4c4;
   /*background-image: linear-gradient(to bottom right, #188bb1, black);*/
-  height: 100vh;
+  height: 50vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
