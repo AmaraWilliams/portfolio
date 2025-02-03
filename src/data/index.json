@@ -1,0 +1,52 @@
+
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/python.svg",
+      "title": "Python",
+      "description": "Write scripts integrating popular APIs"
+    },
+    {
+      "id": "2",
+      "src": "./img/android-studio.png",
+      "title": "Android Studio",
+      "description": "Full-Stack development for Android devices"
+    },
+    {
+      "id": "3",
+      "src": "./img/SQL.png",
+      "title": "SQL",
+      "description": "Create EERDs, write queries and procedures, and develop MVPs utilizing structure"
+    },
+    {
+      "id": "4",
+      "src": "./img/1.png",
+      "title": "Project Management",
+      "description": "Work closely within teams, documenting and guiding leading developments"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/2.png",
+      "title": "Empathy Bytes",
+      "description": "Web Developer and Subteam Leader",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/3.png",
+      "title": "Butterfly",
+      "description": "UX Designer",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/1.png",
+      "title": "New Music Friday",
+      "description": "Developer",
+      "link": "View In Github"
+    }
+  ]
+}
