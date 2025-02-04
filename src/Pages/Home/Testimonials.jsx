@@ -2,7 +2,7 @@ import data from "../../data/index.json";
 import resume from "../../assets/AmaraWilliams_Resume.pdf"
 export default function Testimonial() {
   return (
-    <section className="testimonial--section" id="testimonial">
+    <section className="testimonial--section" id="Resume">
       <object data={resume} type="application/pdf" width="100%" height="100%"/>
         <div className="portfolio--container-box">
       </div>

@@ -5,10 +5,11 @@ import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Testimonial from "../Testimonials";
-
+import NotificationBar from "../NotificationBar/NotificationBar";
 export default function Home() {
   return (
     <>
+      <NotificationBar/>
       <HeroSection />
       <MySkills />
       <AboutMe />
