@@ -1,0 +1,24 @@
+.notification-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1000;
+    border-bottom: 2px solid #f5c6cb;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #721c24;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
