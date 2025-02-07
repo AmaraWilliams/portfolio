@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 function Navbar() {
-  const [navActive, setNavActive] = useState(false);
-
+  const [navActive, setNavActive] = useState(false)
   const toggleNav = () => {
     setNavActive(!navActive);
   };
@@ -35,7 +34,9 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img className="nav-logo" src="./img/amara-logo.png" alt="Amara Williams" />
+        <img className="nav-logo" src="./img/amara-logo.png" alt="Amara Williams"   
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+ />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
