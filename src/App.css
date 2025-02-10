@@ -16,6 +16,9 @@ h6,
 p {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 :root {
   --primary: #5e3bee;
   --heading-color: #282938;
