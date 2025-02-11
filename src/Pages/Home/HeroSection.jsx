@@ -13,7 +13,7 @@ export default function HeroSection() {
           and a background in Computer Science; driving successful team collaboration and project outcomes.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <a href="https://www.linkedin.com/in/amara-williams-42526416b"><button className="btn btn-primary">Get In Touch</button></a>
       </div>
       <div className="hero--section--img">
         <img src={headshot} alt="Hero Section" />

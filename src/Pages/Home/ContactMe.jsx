@@ -1,7 +1,7 @@
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
-      <div>
+      {/* <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
       </div>
@@ -73,7 +73,7 @@ export default function ContactMe() {
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
-      </form>
+      </form> */}
     </section>
   );
 }
